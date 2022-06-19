@@ -1,0 +1,42 @@
+.rightElement {
+  border-bottom: 2px solid lightgray;
+  position: relative;
+  padding: 16px 16px 5px 16px;
+  display: flex;
+  flex-direction: column;
+  right: 80px;
+  width: 110%;
+}
+.rightElement > h3 {
+  font-weight: 600;
+  color: #65676b;
+  margin-right: 20px;
+  position: relative;
+  right: 10px;
+}
+
+.rightcontainer__pages_element {
+  display: flex;
+  position: relative;
+  align-items: center;
+  right: 15px;
+  padding: 15px 15px 10px 15px;
+}
+.rightcontainer__pages_element:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+.rightcontainer__pages_element > img {
+  height: 100px;
+}
+.rightcontainer__pages_element > h5 {
+  font-weight: 600;
+  margin-left: 10px;
+}
+.rightcontainer__pages_element > p {
+  font-weight: 200;
+  font-size: 14px;
+  margin-left: 10px;
+}

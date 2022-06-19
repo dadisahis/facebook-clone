@@ -1,16 +1,28 @@
 import React from "react";
-import "./Widgets.css";
+import "./RightContainer.css";
+import RightElement from "./RightElement";
+import Contacts from "./Contacts";
 
-function RightContainer({ title, image }) {
+function RightContainer() {
   return (
     <div className="rightContainer">
-      <div className="rightContainer__pages">
-        <h3>Your Pages and profiles</h3>
-        <div className="rightcontainer__pages_element">
-          <image src={image} alt="" />
-          <h4>{title}</h4>
-        </div>
-      </div>
+      <RightElement
+        title="Your Pages and Profiles"
+        name="Vought International"
+        image="https://www.dafont.com/forum/attach/orig/8/9/899543.png?1"
+      />
+      <RightElement
+        title="Friend Requests"
+        name="Billy Butcher"
+        image="https://www.cheatsheet.com/wp-content/uploads/2022/03/The-Boys-Season-3-Poster-Cut.jpeg"
+      />
+      <RightElement
+        title="Birthdays"
+        name="Starlight"
+        isBirthday={true}
+        image="https://static.tvmaze.com/uploads/images/medium_portrait/265/664985.jpg"
+      />
+      <Contacts />
     </div>
   );
 }

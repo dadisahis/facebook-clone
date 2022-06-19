@@ -5,7 +5,7 @@
   background-color: white;
   border-radius: 15px;
   box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
-  width: 100%;
+  width: 95%;
 }
 .messageSender__top {
   display: flex;
@@ -17,9 +17,9 @@
   flex: 1;
   display: flex;
 }
-.messageSender__topinput {
+/* .messageSender__topinput {
   width: 500px;
-}
+} */
 .messageSender__top > form > input {
   outline-width: 0;
   border: none;

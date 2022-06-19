@@ -1,0 +1,26 @@
+.contacts__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 16px 10px 16px;
+}
+.contacts__top {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts__topleft > h3 {
+  font-weight: 600;
+  color: #65676b;
+  position: relative;
+  right: 105px;
+}
+.contacts__topright {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacts__topright > .MuiSvgIcon-root {
+  color: #65676b;
+  margin-right: 10px;
+}
