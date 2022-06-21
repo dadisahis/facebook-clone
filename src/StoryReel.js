@@ -26,7 +26,7 @@ function StoryReel() {
         title="Flash"
       />
       <Story
-        image="http://www.theandrewblog.net/wp-content/uploads/2021/02/wnd11.png"
+        image="https://i.pinimg.com/originals/02/b1/cc/02b1cc8ec980cf04ae1b28022454912f.jpg"
         profileSrc="https://dam.smashmexico.com.mx/wp-content/uploads/2022/04/doctor-strange-in-the-multiverse-of-madness-scarlet-witch-elizabeth-olsen-razon-cover.jpg"
         title="Scarlett Witch"
       />

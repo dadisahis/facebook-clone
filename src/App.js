@@ -38,8 +38,6 @@ function App() {
       reAuth();
     };
   }, [dispatch]);
-  console.log(user);
-  console.log(isAuthenticated);
   return (
     <div className="app">
       {!isAuthenticated && !user ? (
