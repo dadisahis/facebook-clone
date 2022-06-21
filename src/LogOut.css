@@ -1,0 +1,59 @@
+.logout {
+  position: relative;
+}
+
+.logout__info__parent {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 330px;
+  width: 300px;
+  padding: 15px;
+  z-index: 101;
+  flex: 1;
+  top: 120%;
+  right: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px -9px rgba(0.75, 0.75, 0.75, 0.75);
+  background-color: white;
+}
+.logout__info {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid lightgray;
+}
+.logout__info > h4 {
+  margin-left: 10px;
+  font-weight: 600;
+}
+.logout__option {
+  display: flex;
+  position: relative;
+  align-items: center;
+  right: 15px;
+  padding: 5px 15px 5px 15px;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+.logout__option > p {
+  margin-left: 10px;
+}
+.logout__option:hover {
+  background-color: rgb(240, 239, 239);
+  cursor: pointer;
+  width: 95%;
+  border-radius: 10px;
+}
+
+.logout__option__icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 999px;
+  background-color: rgb(235, 233, 233);
+}

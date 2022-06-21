@@ -15,6 +15,10 @@ function Login() {
           type: actionTypes.SET_USER,
           user: result.user,
         });
+        dispatch({
+          type: actionTypes.SET_AUTHENTICATED,
+          isAuthenticated: true,
+        });
       })
       .catch((error) => alert(error.message));
   };

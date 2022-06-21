@@ -17,9 +17,9 @@
   flex: 1;
   display: flex;
 }
-/* .messageSender__topinput {
-  width: 500px;
-} */
+.messageSender__topinput {
+  width: 270px;
+}
 .messageSender__top > form > input {
   outline-width: 0;
   border: none;
