@@ -9,7 +9,6 @@ import { useStateValue } from "./configs/stateProvider";
 import { auth } from "./firebase";
 import { actionTypes } from "./configs/reducer";
 import { useEffect } from "react";
-import LogOut from "./LogOut";
 
 function App() {
   const [{ user, isAuthenticated }, dispatch] = useStateValue();

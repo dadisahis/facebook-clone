@@ -3,7 +3,7 @@ import { auth, provider } from "./firebase";
 import { useStateValue } from "./configs/stateProvider";
 import { actionTypes } from "./configs/reducer";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { Avatar, Button, IconButton } from "@mui/material";
+import { Avatar, IconButton } from "@mui/material";
 import "./LogOut.css";
 import SettingsIcon from "@mui/icons-material/Settings";
 import HelpIcon from "@mui/icons-material/Help";
